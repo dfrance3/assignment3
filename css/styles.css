@@ -9,3 +9,16 @@
        font-family: bold;
        background-color: aqua;
    }
+body {
+    background-color: beige;
+}
+
+main {
+    background-color: darkgreen;
+}
+
+.differentfont {
+    
+    font-family: monospace;
+    
+}
