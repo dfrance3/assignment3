@@ -2,6 +2,7 @@
    h2 {
        color: rgb(218, 22, 47);
        font-family: fantasy;
+       font-weight: 100;
    }
 
    h1,
@@ -9,63 +10,94 @@
        font-family: bold;
        background-color: black;
    }
-body {
-    background-color: whitesmoke;
-}
 
-main {
-    background-color: whitesmoke;
-}
+   body {
+       background-color: whitesmoke;
+   }
 
-.differentfont {
-    
-    font-family: monospace;
-    
-}
+   main {
+       background-color: whitesmoke;
+   }
 
-header, footer {
-    color: red;
-    
-}
+   .differentfont {
 
+       font-family: monospace;
 
-#pictures {
-    color: black;
-}
+   }
 
-#features {
-    color: black;
-}
+   header,
+   footer {
+       color: red;
+
+   }
 
 
-nav a {
-    color: black;
-}
+   #pictures {
+       color: black;
+   }
 
-footer a {
-    color: black;
-}
+   #features {
+       color: black;
+   }
+
+   #worrysome {
+
+       font-size: 2.2em;
+
+       border: 5px solid red;
+       padding-bottom: 2px;
+       padding-top: 2px;
+       padding-left: 15px;
+       border-radius: 25px;
+
+   }
+
+   .worrysome {
+
+       font-size: 2.2em;
+
+       border: 5px solid red;
+       padding-bottom: 2px;
+       padding-top: 2px;
+       padding-left: 15px;
+       border-radius: 25px;
+
+   }
 
 
-a:hover {
-    color: #aaa;
-}
 
-@media screen and (max-width: 30rem) {
-    
-    header,
-    main,
-    footer,
-    form p {
-        flex-direction: column; 
-    }
-    form input, textarea{
-        margin: 2px 0;
-    }
-    .hero-text {
-        flex:none
-    }
-    form select {
-        margin: 0
-    }
-}
+   nav a {
+       color: black;
+   }
+
+   footer a {
+       color: black;
+   }
+
+
+   a:hover {
+       color: #aaa;
+   }
+
+   @media screen and (max-width: 30rem) {
+
+       header,
+       main,
+       footer,
+       form p {
+           flex-direction: column;
+       }
+
+       form input,
+       textarea {
+           margin: 2px 0;
+       }
+
+       .hero-text {
+           flex: none
+       }
+
+       form select {
+           margin: 0
+       }
+   }
