@@ -1,103 +1,118 @@
-   h1,
-   h2 {
-       color: rgb(218, 22, 47);
-       font-family: fantasy;
-       font-weight: 100;
-   }
+html {
+    color: slategrey;
+    box-sizing: border-box;
+    margin: 0;
 
-   h1,
-   h2 {
-       font-family: bold;
-       background-color: black;
-   }
-
-   body {
-       background-color: whitesmoke;
-   }
-
-   main {
-       background-color: whitesmoke;
-   }
-
-   .differentfont {
-
-       font-family: monospace;
-
-   }
-
-   header,
-   footer {
-       color: red;
-
-   }
-
-
-   #pictures {
-       color: black;
-   }
-
-   #features {
-       color: black;
-   }
-
-   #worrysome {
-
-       font-size: 2.2em;
-
-       border: 5px solid red;
-       padding-bottom: 2px;
-       padding-top: 2px;
-       padding-left: 15px;
-       border-radius: 25px;
-
-   }
-
-   .worrysome {
-
-       font-size: 2.2em;
-
-       border: 5px solid red;
-       padding-bottom: 2px;
-       padding-top: 2px;
-       padding-left: 15px;
-       border-radius: 25px;
-
-   }
+}
 
 
 
-   nav a {
-       color: black;
-   }
 
-   footer a {
-       color: black;
-   }
+h1,
+h2 {
+    color: rgb(218, 22, 47);
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+h1,
+h2 {
+    font-family: bold;
+    background-color: black;
+}
+
+body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/whitebackgroundimage.jpg");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 
 
-   a:hover {
-       color: #aaa;
-   }
 
-   @media screen and (max-width: 30rem) {
+}
 
-       header,
-       main,
-       footer,
-       form p {
-           flex-direction: column;
-       }
 
-       form input,
-       textarea {
-           margin: 2px 0;
-       }
+.differentfont {
 
-       .hero-text {
-           flex: none
-       }
+    font-family: monospace;
 
-       form select {
-           margin: 0
-       }
-   }
+}
+
+header,
+footer {
+    color: red;
+
+}
+
+
+#pictures {
+    color: black;
+}
+
+#features {
+    color: black;
+}
+
+#worrysome {
+
+    font-size: 2.2em;
+
+    border: 5px solid red;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 15px;
+    border-radius: 25px;
+
+}
+
+.worrysome {
+
+    font-size: 2.2em;
+
+    border: 5px solid red;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 15px;
+    border-radius: 25px;
+
+}
+
+
+
+nav a {
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+
+
+a:hover {
+    color: #aaa;
+}
+
+@media screen and (max-width: 30rem) {
+
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+
+    form input,
+    textarea {
+        margin: 2px 0;
+    }
+
+    .hero-text {
+        flex: none
+    }
+
+    form select {
+        margin: 0
+    }
+}
