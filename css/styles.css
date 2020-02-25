@@ -29,9 +29,9 @@ body {
     background-position: center;
     min-height: 100vh;
 
-
-
 }
+
+
 
 
 .differentfont {
@@ -79,19 +79,24 @@ footer {
 
 }
 
+.contactcolor {
+    color: black;
+
+}
 
 
-nav a {
+
+header nav ul li a {
     color: black;
 }
 
-footer a {
+footer ul li a {
     color: black;
 }
 
 
 a:hover {
-    color: #aaa;
+    color: red;
 }
 
 @media screen and (max-width: 30rem) {
