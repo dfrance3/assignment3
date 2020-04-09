@@ -5,7 +5,15 @@ html {
 
 }
 
-
+.container {
+      width: 50vw;
+    padding: 0.5em;
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    align-items:baseline;
+}
 
 
 h1,
@@ -86,11 +94,22 @@ footer {
 
 
 
-header nav ul li a {
+header nav a {
+      width: 50vw;
+    padding: 0.5em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: stretch;
+}
+  
     color: black;
 }
 
-footer ul li a {
+footer div a {
     color: black;
 }
 
